@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
+
+  <!-- BEGIN ARIEL -->
+
+<project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
+<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+
+<!-- arm64 depends on arm -->
+<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
+<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
+  
+  <project name="mikalackis/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ariel-14.1"/>
+
+  <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project name="mikalackis/android_frameworks_base_lineage" path="frameworks/base" remote="github" revision="ariel-14.1" />
+
+  <project name="mikalackis/android_packages_apps_ArielGuardian" path="packages/apps/ArielGuardian" remote="github" revision="master" />
+
+  <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="master_lineageos" remote="github" />
+
+  <remove-project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
+  <project path="vendor/cmsdk" name="mikalackis/cm_platform_sdk" revision="ariel-14.1" remote="github" />
+
+  <!-- END ARIEL -->
+
+</manifest>

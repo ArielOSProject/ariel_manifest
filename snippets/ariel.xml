@@ -21,6 +21,8 @@
 
   <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="master_lineageos" remote="github" />
 
+  <project path="vendor/lge/bullhead" name="mikalackis/proprietary_vendor_lge_bullhead" revision="ariel-14.1" remote="github" />
+
   <remove-project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
   <project path="vendor/cmsdk" name="mikalackis/cm_platform_sdk" revision="ariel-14.1" remote="github" />
 

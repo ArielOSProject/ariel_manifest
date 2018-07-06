@@ -2,6 +2,6 @@
 <manifest>
 
   <!-- ArielOS additions -->
-  <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="master_temp_oreo" remote="github" />
+  <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="ariel-lineage-15.1" remote="github" />
   
 </manifest>

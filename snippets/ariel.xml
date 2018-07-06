@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="ariel" fetch="https://github.com/" />
+  <remote name="ariel" 
+          fetch="https://github.com/"
+          revision="refs/heads/ariel-lineage-15.1" />
 
   <!-- ArielOS additions -->
   <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="ariel-lineage-15.1" remote="ariel" />

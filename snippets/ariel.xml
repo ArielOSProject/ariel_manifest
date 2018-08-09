@@ -8,7 +8,7 @@
   <!-- ArielOS additions -->
   <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="ariel-lineage-15.1" remote="ariel" />
   <project path="device/huawei/angler" name="mikalackis/android_device_huawei_angler" remote="ariel" revision="ariel-lineage-15.1" />
-  <project path="vendor/huawei/angler" name="mikalackis/android_vendor_huawei_angler" remote="ariel" revision="OPM6.171019.030.E1">
+  <project path="vendor/huawei/angler" name="mikalackis/android_vendor_huawei_angler" remote="ariel" revision="OPM6.171019.030.E1" />
   <remove-project name="LineageOS/android_lineage-sdk" />
   <project path="lineage-sdk" name="mikalackis/android_lineage-sdk" remote="ariel" revision="ariel-lineage-15.1"/>
   <remove-project name="LineageOS/android_build">

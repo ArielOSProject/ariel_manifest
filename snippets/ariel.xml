@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- LineageOS overrides -->
-  <project path="build/make" name="mikalackis/android_build" groups="pdk" remote="ariel">
+  <project path="build/make" name="ArielOSTeam/android_build" groups="pdk" remote="ariel">
    <copyfile src="core/root.mk" dest="Makefile" />
    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -11,14 +11,14 @@
    <linkfile src="target" dest="build/target" />
    <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="system/core" name="mikalackis/android_system_core" remote="ariel" revision="ariel-lineage-15.1"/>
-  <project path="lineage-sdk" name="mikalackis/android_lineage-sdk" remote="ariel" revision="ariel-lineage-15.1"/>
+  <project path="system/core" name="ArielOSTeam/android_system_core" remote="ariel" revision="ariel-lineage-15.1"/>
+  <project path="lineage-sdk" name="ArielOSTeam/android_lineage-sdk" remote="ariel" revision="ariel-lineage-15.1"/>
 
 
   <!-- ArielOS additions -->
-  <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="ariel-lineage-15.1" remote="ariel" />
-  <project path="device/huawei/angler" name="mikalackis/android_device_huawei_angler" remote="ariel" revision="ariel-lineage-15.1" />
-  <project path="vendor/huawei/angler" name="mikalackis/android_vendor_huawei_angler" remote="ariel" revision="OPM6.171019.030.H1" />
-  <project path="vendor_overlay/huawei/angler" name="mikalackis/android_vendor_overlay_huawei_angler" remote="ariel" revision="OPM6.171019.030.H1" />  
+  <project path="vendor/ariel" name="ArielOSTeam/platform_vendor_ariel" revision="ariel-lineage-15.1" remote="ariel" />
+  <project path="device/huawei/angler" name="ArielOSTeam/android_device_huawei_angler" remote="ariel" revision="ariel-lineage-15.1" />
+  <project path="vendor/huawei/angler" name="ArielOSTeam/android_vendor_huawei_angler" remote="ariel" revision="OPM6.171019.030.H1" />
+  <project path="vendor_overlay/huawei/angler" name="ArielOSTeam/android_vendor_overlay_huawei_angler" remote="ariel" revision="OPM6.171019.030.H1" />  
   
 </manifest>

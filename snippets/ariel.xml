@@ -18,8 +18,8 @@
   <!-- ArielOS additions -->
   <project path="vendor/ariel" name="ArielOSTeam/platform_vendor_ariel" revision="ariel-lineage-15.1" remote="ariel" />
   <project path="device/huawei/angler" name="ArielOSTeam/android_device_huawei_angler" remote="ariel" revision="ariel-lineage-15.1" />
-  <project path="vendor/huawei/angler" name="ArielOSTeam/android_vendor_huawei_angler" remote="ariel" revision="OPM6.171019.030.H1" />
-  <project path="vendor_overlay/huawei/angler" name="ArielOSTeam/android_vendor_overlay_huawei_angler" remote="ariel" revision="OPM6.171019.030.H1" />  
+  <project path="vendor/huawei/angler" name="ArielOSTeam/android_vendor_huawei_angler" remote="ariel" revision="OPM6.171019.030.K1" />
+  <project path="vendor_overlay/huawei/angler" name="ArielOSTeam/android_vendor_overlay_huawei_angler" remote="ariel" revision="OPM6.171019.030.K1" />  
   <project path="packages/apps/DuckDuckGo" name="ArielOSTeam/android_packages_apps_DuckDuckGo" remote="ariel" revision="master" />  
   
 </manifest>

@@ -20,6 +20,7 @@
   <project path="device/huawei/angler" name="ArielOSTeam/android_device_huawei_angler" remote="ariel" revision="ariel-lineage-15.1" />
   <project path="vendor/huawei/angler" name="ArielOSTeam/android_vendor_huawei_angler" remote="ariel" revision="OPM6.171019.030.K1" />
   <project path="vendor_overlay/huawei/angler" name="ArielOSTeam/android_vendor_overlay_huawei_angler" remote="ariel" revision="OPM6.171019.030.K1" />  
-  <project path="packages/apps/DuckDuckGo" name="ArielOSTeam/android_packages_apps_DuckDuckGo" remote="ariel" revision="master" />  
+  <project path="packages/apps/DuckDuckGo" name="ArielOSTeam/android_packages_apps_DuckDuckGo" remote="ariel" revision="master" />
+  <project path="packages/apps/YalpStore" name="ArielOSTeam/android_packages_apps_YalpStore" remote="ariel" revision="master" />  
   
 </manifest>

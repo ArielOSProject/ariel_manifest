@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- LineageOS overrides -->
-  <project path="build/make" name="ArielOSTeam/android_build" groups="pdk" remote="ariel">
+  <project path="build/make" name="ArielOSProject/android_build" groups="pdk" remote="ariel">
    <copyfile src="core/root.mk" dest="Makefile" />
    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -11,16 +11,16 @@
    <linkfile src="target" dest="build/target" />
    <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="system/core" name="ArielOSTeam/android_system_core" remote="ariel" revision="ariel-lineage-15.1"/>
-  <project path="lineage-sdk" name="ArielOSTeam/android_lineage-sdk" remote="ariel" revision="ariel-lineage-15.1"/>
+  <project path="system/core" name="ArielOSProject/android_system_core" remote="ariel" revision="ariel-lineage-15.1"/>
+  <project path="lineage-sdk" name="ArielOSProject/android_lineage-sdk" remote="ariel" revision="ariel-lineage-15.1"/>
 
 
   <!-- ArielOS additions -->
-  <project path="vendor/ariel" name="ArielOSTeam/platform_vendor_ariel" revision="ariel-lineage-15.1" remote="ariel" />
-  <project path="device/huawei/angler" name="ArielOSTeam/android_device_huawei_angler" remote="ariel" revision="ariel-lineage-15.1" />
-  <project path="vendor/huawei/angler" name="ArielOSTeam/android_vendor_huawei_angler" remote="ariel" revision="OPM6.171019.030.K1" />
-  <project path="vendor_overlay/huawei/angler" name="ArielOSTeam/android_vendor_overlay_huawei_angler" remote="ariel" revision="OPM6.171019.030.K1" />  
-  <project path="packages/apps/DuckDuckGo" name="ArielOSTeam/android_packages_apps_DuckDuckGo" remote="ariel" revision="master" />
-  <project path="packages/apps/YalpStore" name="ArielOSTeam/android_packages_apps_YalpStore" remote="ariel" revision="master" />  
+  <project path="vendor/ariel" name="ArielOSProject/platform_vendor_ariel" revision="ariel-lineage-15.1" remote="ariel" />
+  <project path="device/huawei/angler" name="ArielOSProject/android_device_huawei_angler" remote="ariel" revision="ariel-lineage-15.1" />
+  <project path="vendor/huawei/angler" name="ArielOSProject/android_vendor_huawei_angler" remote="ariel" revision="OPM6.171019.030.K1" />
+  <project path="vendor_overlay/huawei/angler" name="ArielOSProject/android_vendor_overlay_huawei_angler" remote="ariel" revision="OPM6.171019.030.K1" />  
+  <project path="packages/apps/DuckDuckGo" name="ArielOSProject/android_packages_apps_DuckDuckGo" remote="ariel" revision="master" />
+  <project path="packages/apps/YalpStore" name="ArielOSProject/android_packages_apps_YalpStore" remote="ariel" revision="master" />  
   
 </manifest>

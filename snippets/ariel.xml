@@ -13,6 +13,7 @@
   </project>
   <project path="system/core" name="ArielOSProject/android_system_core" remote="ariel" revision="ariel-lineage-15.1"/>
   <project path="lineage-sdk" name="ArielOSProject/android_lineage-sdk" remote="ariel" revision="ariel-lineage-15.1"/>
+  <project path="frameworks/base" name="ArielOSProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="ariel" revision="ariel-lineage-15.1"/>
 
 
   <!-- ArielOS additions -->

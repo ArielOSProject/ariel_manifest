@@ -22,5 +22,9 @@
   <project path="vendor_overlay/huawei/angler" name="ArielOSProject/android_vendor_overlay_huawei_angler" remote="ariel" revision="OPM6.171019.030.K1" />  
   <project path="packages/apps/DuckDuckGo" name="ArielOSProject/android_packages_apps_DuckDuckGo" remote="ariel" revision="master" />
   <project path="packages/apps/YalpStore" name="ArielOSProject/android_packages_apps_YalpStore" remote="ariel" revision="master" />  
+
+  <!-- microg -->
+  <project path="packages/apps/GmsCore" name="ArielOSProject/android_packages_apps_GmsCore" remote="ariel" revision="master" />  
+  <project path="packages/apps/IchnaeaNlpBackend" name="ArielOSProject/IchnaeaNlpBackend" remote="ariel" revision="master" />  
   
 </manifest>

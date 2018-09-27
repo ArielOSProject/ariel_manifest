@@ -26,6 +26,6 @@
 
   <!-- microg -->
   <project path="packages/apps/GmsCore" name="ArielOSProject/android_packages_apps_GmsCore" remote="ariel" revision="master" />  
-  <project path="packages/apps/IchnaeaNlpBackend" name="ArielOSProject/IchnaeaNlpBackend" remote="ariel" revision="master" />  
+  <project path="packages/apps/IchnaeaNlpBackend" name="ArielOSProject/IchnaeaNlpBackend" remote="ariel" revision="ariel-lineage" />  
   
 </manifest>

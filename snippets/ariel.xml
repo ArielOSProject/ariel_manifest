@@ -20,7 +20,9 @@
   <project path="vendor/huawei/angler" name="ArielOSProject/android_vendor_huawei_angler" remote="ariel" revision="OPM7.181005.003" />
   <project path="vendor_overlay/huawei/angler" name="ArielOSProject/android_vendor_overlay_huawei_angler" remote="ariel" revision="OPM7.181005.003" />  
   <project path="packages/apps/DuckDuckGo" name="ArielOSProject/android_packages_apps_DuckDuckGo" remote="ariel" revision="master" />
- 
+  <project path="packages/apps/NetworkLocation" name="ArielOSProject/android_packages_apps_NetworkLocation" remote="ariel" revision="master" />
+  <project path="packages/apps/DejaVu" name="ArielOSProject/android_packages_apps_DejaVu" remote="ariel" revision="master" />
+
   <!-- Opengapps additions -->
   <!-- <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" /> -->

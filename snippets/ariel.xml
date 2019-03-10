@@ -23,7 +23,8 @@
   <project path="packages/apps/NetworkLocation" name="ArielOSProject/android_packages_apps_NetworkLocation" remote="ariel" revision="master" />
   <project path="packages/apps/DejaVu" name="ArielOSProject/android_packages_apps_DejaVu" remote="ariel" revision="master" />
   <project path="packages/apps/ArielGuardian" name="ArielOSProject/android_packages_apps_ArielGuardian" remote="ariel" revision="master" />
-
+  <project path="packages/apps/AuroraStore" name="ArielOSProject/android_packages_apps_AuroraStore" remote="ariel" revision="master" />
+  
   <!-- Opengapps additions -->
   <!-- <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" /> -->

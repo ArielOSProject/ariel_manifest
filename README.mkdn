@@ -9,7 +9,7 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the ArielOS trees, use a command like this:
 ```
-repo init -u git://github.com/ArielOS/ariel_manifest.git -b ariel-lineage-15.1
+repo init -u git://github.com/ArielOSProject/ariel_manifest.git -b ariel-lineage-15.1
 ```
 Then to sync up:
 ```

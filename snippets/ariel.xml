@@ -17,7 +17,7 @@
   <!--<project path="lineage-sdk" name="ArielOSProject/android_lineage-sdk" remote="ariel" revision="ariel-lineage-15.1"/> -->
 
   <!-- ArielOS additions -->
-  <!--<project path="vendor/ariel" name="ArielOSProject/platform_vendor_ariel" revision="ariel-lineage-15.1" remote="ariel" />--> 
+  <project path="vendor/ariel" name="ArielOSProject/platform_vendor_ariel" revision="ariel-lineage-15.1" remote="ariel" /> 
   <project path="packages/apps/DuckDuckGo" name="ArielOSProject/android_packages_apps_DuckDuckGo" remote="ariel" revision="master" />
   <project path="packages/apps/NetworkLocation" name="ArielOSProject/android_packages_apps_NetworkLocation" remote="ariel" revision="master" />
   <project path="packages/apps/DejaVu" name="ArielOSProject/android_packages_apps_DejaVu" remote="ariel" revision="master" />

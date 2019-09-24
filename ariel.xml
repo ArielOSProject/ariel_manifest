@@ -17,6 +17,7 @@
    <linkfile src="target" dest="build/target" />
    <linkfile src="tools" dest="build/tools" />
   </project> -->
+  
   <remove-project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
   <project path="system/core" name="ArielOSProject/android_system_core" remote="ariel" revision="ariel-lineage-15.1"/>
 

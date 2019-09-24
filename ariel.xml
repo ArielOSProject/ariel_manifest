@@ -7,9 +7,9 @@
          fetch="https://github.com/"
          revision="refs/heads/ariel-lineage-15.1" />
 
-  <!-- <remote name="lineage"
+  <remote name="lineage"
          fetch=".."
-         review="review.lineageos.org" /> -->
+         review="review.lineageos.org" />
 
   <!-- LineageOS overrides -->
   <!-- <project path="build/make" name="ArielOSProject/android_build" groups="pdk" remote="ariel" revision="ariel-lineage-15.1">

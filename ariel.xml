@@ -11,6 +11,11 @@
          fetch=".."
          review="review.lineageos.org" />
 
+  <default revision="refs/heads/ariel-lineage-15.1"
+         remote="ariel"
+         sync-c="true"
+         sync-j="4" />
+
   <!-- LineageOS overrides -->
   <remove-project path="build/make" name="LineageOS/android_build" groups="pdk" />
   <project path="build/make" name="ArielOSProject/android_build" groups="pdk" remote="ariel">

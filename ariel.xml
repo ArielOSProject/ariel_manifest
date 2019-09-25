@@ -11,7 +11,7 @@
          fetch=".."
          review="review.lineageos.org" />
 
-  <default revision="refs/heads/ariel-lineage-15.1"
+  <default-ariel revision="refs/heads/ariel-lineage-15.1"
          remote="ariel"
          sync-c="true"
          sync-j="4" />

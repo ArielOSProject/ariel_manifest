@@ -43,7 +43,7 @@
   <project path="packages/apps/DejaVu" name="ArielOSProject/android_packages_apps_DejaVu" remote="ariel" revision="master" />
   <project path="packages/apps/ArielGuardian" name="ArielOSProject/android_packages_apps_ArielGuardian" remote="ariel" revision="master" />
   <project path="packages/apps/AuroraStore" name="ArielOSProject/android_packages_apps_AuroraStore" remote="ariel" revision="master" />
-  <project path="device/huawei/angler" name="ArielOSProject/android_device_huawei_angler" remote="ariel" revision="ariel-lineage-15.1" />
+  <!-- <project path="device/huawei/angler" name="ArielOSProject/android_device_huawei_angler" remote="ariel" revision="ariel-lineage-15.1" /> -->
   
   <!-- Opengapps additions -->
   <!-- <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />

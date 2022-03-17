@@ -11,12 +11,6 @@
          fetch=".."
          review="review.lineageos.org" />
 
-<!-- Lineage -->
-<default revision="refs/heads/lineage-17.1"
-         remote="github"
-         sync-c="true"
-         sync-j="4" />
-
   <default-ariel revision="refs/heads/ariel-lineage-17.1"
          remote="ariel"
          sync-c="true"

@@ -30,6 +30,8 @@
 
   <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/base" name="ArielOSProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="ariel"/>
+  <remove-project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
+  <project path="lineage-sdk" name="ArielOSProject/android_lineage-sdk" remote="ariel"/>
 
   <!-- <remove-project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
   <project path="system/core" name="ArielOSProject/android_system_core" remote="ariel" revision="ariel-lineage-15.1"/> -->

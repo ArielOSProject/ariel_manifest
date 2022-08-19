@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <include name="default.xml"/>
+
+  <remote name="ariel" 
+         fetch="https://github.com/"
+         revision="refs/heads/ariel-lineage-18.1" />
+
+  <remote name="lineage"
+         fetch=".."
+         review="review.lineageos.org" />
+
+  <default-ariel revision="refs/heads/ariel-lineage-18.1"
+         remote="ariel"
+         sync-c="true"
+         sync-j="4" />
+
+  <!-- LineageOS overrides -->
+  <remove-project path="build/make" name="LineageOS/android_build" groups="pdk" />
+  <project path="build/make" name="ArielOSProject/android_build" groups="pdk" remote="ariel">
+   <copyfile src="core/root.mk" dest="Makefile" />
+   <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+   <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+   <linkfile src="core" dest="build/core" />
+   <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+   <linkfile src="target" dest="build/target" />
+   <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="ArielOSProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="ariel"/>
+  <remove-project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
+  <project path="lineage-sdk" name="ArielOSProject/android_lineage-sdk" remote="ariel"/>
+
+  <!-- <remove-project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+  <project path="system/core" name="ArielOSProject/android_system_core" remote="ariel" revision="ariel-lineage-15.1"/> -->
+
+  <!--<project path="vendor/lineage" name="ArielOSProject/android_vendor_lineage" remote="ariel" revision="ariel-lineage-15.1"/>-->
+  <remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
+  <project path="packages/apps/SetupWizard" name="ArielOSProject/android_packages_apps_SetupWizard" remote="ariel"/>
+  <!--<project path="lineage-sdk" name="ArielOSProject/android_lineage-sdk" remote="ariel" revision="ariel-lineage-15.1"/> -->
+
+  <!-- ArielOS additions -->
+  <project path="vendor/ariel" name="ArielOSProject/platform_vendor_ariel" remote="ariel" />
+  <project path="packages/apps/DejaVu" name="ArielOSProject/android_packages_apps_DejaVu" remote="ariel" revision="master" />
+  <project path="packages/apps/ArielGuardian" name="ArielOSProject/android_packages_apps_ArielGuardian" remote="ariel" revision="master" />
+  <project path="packages/apps/AuroraStore" name="ArielOSProject/android_packages_apps_AuroraStore" remote="ariel" revision="master" />
+  <project path="packages/apps/SongTube" name="ArielOSProject/android_packages_apps_SongTube" remote="ariel" revision="master" />
+  <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github" revision="master" />
+  <!-- <project path="device/huawei/angler" name="ArielOSProject/android_device_huawei_angler" remote="ariel" revision="ariel-lineage-15.1" /> -->
+  
+  <!-- Opengapps additions -->
+  <!-- <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" /> -->
+  <!-- arm64 depends on arm -->
+  <!-- <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" /> -->
+
+</manifest>

@@ -27,6 +27,11 @@
    <linkfile src="target" dest="build/target" />
    <linkfile src="tools" dest="build/tools" />
   </project>
+  <remove-project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" />
+  <project path="build/soong" name="ArielOSProject/android_build_soong" groups="pdk,tradefed" >
+       <linkfile src="root.bp" dest="Android.bp" />
+       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 
   <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/base" name="ArielOSProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="ariel"/>

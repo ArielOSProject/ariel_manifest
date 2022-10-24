@@ -28,7 +28,7 @@
    <linkfile src="tools" dest="build/tools" />
   </project>
   <remove-project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" />
-  <project path="build/soong" name="ArielOSProject/android_build_soong" groups="pdk,tradefed" >
+  <project path="build/soong" name="ArielOSProject/android_build_soong" groups="pdk,tradefed" remote="ariel" >
        <linkfile src="root.bp" dest="Android.bp" />
        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>

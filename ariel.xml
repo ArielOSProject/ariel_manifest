@@ -52,7 +52,7 @@
   <project path="packages/apps/DejaVu" name="ArielOSProject/android_packages_apps_DejaVu" remote="ariel" revision="master" />
   <project path="packages/apps/ArielGuardian" name="ArielOSProject/android_packages_apps_ArielGuardian" remote="ariel" revision="master" />
   <project path="packages/apps/AuroraStore" name="ArielOSProject/android_packages_apps_AuroraStore" remote="ariel" revision="master" />
-  <project path="packages/apps/SongTube" name="ArielOSProject/android_packages_apps_SongTube" remote="ariel" revision="master" />
+  <project path="packages/apps/NewPipe" name="ArielOSProject/android_packages_apps_NewPipe" remote="ariel" revision="master" />
   <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github" revision="master" />
   <!-- <project path="device/huawei/angler" name="ArielOSProject/android_device_huawei_angler" remote="ariel" revision="ariel-lineage-15.1" /> -->
   

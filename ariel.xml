@@ -7,6 +7,9 @@
          fetch="https://github.com/"
          revision="refs/heads/ariel-lineage-18.1" />
 
+  <remote  name="ariel_private"
+         fetch="ssh://git@github.com" />
+
   <remote name="lineage"
          fetch=".."
          review="review.lineageos.org" />
@@ -49,6 +52,7 @@
 
   <!-- ArielOS additions -->
   <project path="vendor/ariel" name="ArielOSProject/platform_vendor_ariel" remote="ariel" />
+  <project path="vendor/ariel-priv" name="ArielOSProject/ariel-priv" remote="ariel_private" revision="master"/>
   <project path="packages/apps/DejaVu" name="ArielOSProject/android_packages_apps_DejaVu" remote="ariel" revision="master" />
   <project path="packages/apps/ArielGuardian" name="ArielOSProject/android_packages_apps_ArielGuardian" remote="ariel" revision="master" />
   <project path="packages/apps/AuroraStore" name="ArielOSProject/android_packages_apps_AuroraStore" remote="ariel" revision="master" />

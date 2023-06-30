@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <include name="default.xml"/>
+
+  <remote name="ariel" 
+         fetch="https://github.com/"
+         revision="refs/heads/ariel-lineage-20.0" />
+
+  <remote  name="ariel_private"
+         fetch="ssh://git@github.com" />
+
+  <remote name="lineage"
+         fetch=".."
+         review="review.lineageos.org" />
+
+  <default-ariel revision="refs/heads/ariel-lineage-20.0"
+         remote="ariel"
+         sync-c="true"
+         sync-j="4" />
+
+  <!-- LineageOS overrides -->
+  <remove-project path="build/make" name="LineageOS/android_build" groups="pdk" />
+  <project path="build/make" name="ArielOSProject/android_build" groups="pdk" remote="ariel">
+   <copyfile src="core/root.mk" dest="Makefile" />
+   <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+   <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+   <linkfile src="core" dest="build/core" />
+   <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+   <linkfile src="target" dest="build/target" />
+   <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" />
+  <project path="build/soong" name="ArielOSProject/android_build_soong" groups="pdk,tradefed" remote="ariel" >
+       <linkfile src="root.bp" dest="Android.bp" />
+       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="ArielOSProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="ariel"/>
+
+  <remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
+  <project path="packages/apps/SetupWizard" name="ArielOSProject/android_packages_apps_SetupWizard" remote="ariel"/>
+
+  <!-- ArielOS additions -->
+  <project path="vendor/ariel" name="ArielOSProject/platform_vendor_ariel" remote="ariel" />
+  <!-- <project path="vendor/ariel-priv" name="ArielOSProject/ariel-priv" remote="ariel_private" revision="master"/> -->
+  <project path="packages/apps/DejaVu" name="ArielOSProject/android_packages_apps_DejaVu" remote="ariel" revision="master" />
+  <project path="packages/apps/ArielGuardian" name="ArielOSProject/android_packages_apps_ArielGuardian" remote="ariel" revision="master" />
+  <project path="packages/apps/AuroraStore" name="ArielOSProject/android_packages_apps_AuroraStore" remote="ariel" revision="master" />
+  <project path="packages/apps/NewPipe" name="ArielOSProject/android_packages_apps_NewPipe" remote="ariel" revision="master" />
+  <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github" revision="master" />
+
+</manifest>

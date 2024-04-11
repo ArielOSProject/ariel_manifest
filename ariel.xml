@@ -7,7 +7,7 @@
          fetch="https://github.com/"
          revision="refs/heads/ariel-lineage-20.0" />
 
-  <remote  name="ariel_private"
+  <remote name="ariel_private"
          fetch="ssh://git@github.com" />
 
   <remote name="lineage"

@@ -8,7 +8,7 @@ To get started with Android/LineageOS, you'll need to get familiar with [Source 
 
 To initialize your local repository using the ArielOS trees, use a command like this:
 ```
-repo init -u https://github.com/ArielOSProject/ariel_manifest.git -b ariel-lineage-20.0 -m ariel.xml --git-lfs
+repo init -u https://github.com/ArielOSProject/ariel_manifest.git -b ariel-lineage-20.0 --git-lfs
 ```
 Then to sync up:
 ```

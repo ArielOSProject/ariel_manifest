@@ -17,6 +17,18 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
+  
+  <remote name="ariel"
+         fetch="https://github.com/"
+         revision="refs/heads/ariel-lineage-20.0" />
+
+  <remote  name="ariel_private"
+         fetch="ssh://git@github.com" />
+
+  <default-ariel revision="refs/heads/ariel-lineage-20.0"
+         remote="ariel"
+         sync-c="true"
+         sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r75" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1130,4 +1142,5 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
+  <include name="snippets/ariel.xml" />
 </manifest>

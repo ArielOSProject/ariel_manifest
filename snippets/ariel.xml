@@ -21,14 +21,15 @@
   <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/base" name="ArielOSProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="ariel"/>
 
-  <remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
-  <project path="packages/apps/SetupWizard" name="ArielOSProject/android_packages_apps_SetupWizard" remote="ariel"/>
+  <!-- <remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
+  <project path="packages/apps/SetupWizard" name="ArielOSProject/android_packages_apps_SetupWizard" remote="ariel"/> -->
 
   <!-- ArielOS additions -->
   <project path="vendor/ariel" name="ArielOSProject/platform_vendor_ariel" remote="ariel" />
-  <!-- <project path="vendor/ariel-priv" name="ArielOSProject/ariel-priv" remote="ariel_private" revision="master"/> Not checked out since we need credentials for this one -->
+  <project path="vendor/ariel-priv" name="ArielOSProject/ariel-priv" remote="ariel_private" revision="master"/>
   <project path="vendor/ariel_gms" name="ArielOSProject/platform_vendor_ariel_gms" remote="github" revision="master" />
   <project path="packages/apps/ArielGuardian" name="ArielOSProject/android_packages_apps_ArielGuardian" remote="ariel" revision="master" />
+  <project path="packages/apps/ArielParental" name="ArielOSProject/android_packages_apps_ArielParental" remote="ariel" revision="master" />
   <project path="packages/apps/AuroraStore" name="ArielOSProject/android_packages_apps_AuroraStore" remote="ariel" revision="master" />
   <project path="packages/apps/NewPipe" name="ArielOSProject/android_packages_apps_NewPipe" remote="ariel" revision="master" />
 

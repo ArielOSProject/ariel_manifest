@@ -21,6 +21,10 @@
   <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/base" name="ArielOSProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="ariel"/>
 
+  <!-- Forked so that we can manipulate incomming SMS before broadcasting -->
+  <remove-project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="ArielOSProject/android_frameworks_opt_telephony" groups="pdk" remote="ariel"/>
+
   <!-- <remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SetupWizard" name="ArielOSProject/android_packages_apps_SetupWizard" remote="ariel"/> -->
 

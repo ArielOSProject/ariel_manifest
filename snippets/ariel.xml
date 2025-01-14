@@ -35,6 +35,7 @@
   <project path="packages/apps/ArielGuardian" name="ArielOSProject/android_packages_apps_ArielGuardian" remote="ariel" revision="master" />
   <project path="packages/apps/ArielParental" name="ArielOSProject/android_packages_apps_ArielParental" remote="ariel" revision="master" />
   <project path="packages/apps/AuroraStore" name="ArielOSProject/android_packages_apps_AuroraStore" remote="ariel" revision="master" />
+  <project path="packages/apps/ArielProtector" name="ArielOSProject/android_packages_apps_ArielProtector" remote="ariel" revision="master" />
   <project path="packages/apps/NewPipe" name="ArielOSProject/android_packages_apps_NewPipe" remote="ariel" revision="master" />
 
 </manifest>

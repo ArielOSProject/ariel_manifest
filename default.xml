@@ -18,6 +18,18 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote name="ariel"
+         fetch="https://github.com/"
+         revision="refs/heads/ariel-lineage-22.2" />
+
+  <remote  name="ariel_private"
+         fetch="ssh://git@github.com" />
+
+  <default-ariel revision="refs/heads/ariel-lineage-22.2"
+         remote="ariel"
+         sync-c="true"
+         sync-j="4" />
+
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->

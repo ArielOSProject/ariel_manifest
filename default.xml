@@ -20,12 +20,12 @@
 
   <remote name="ariel"
          fetch="https://github.com/"
-         revision="refs/heads/ariel-lineage-22.2" />
+         revision="refs/heads/ariel-lineage-20.0" />
 
   <remote  name="ariel_private"
          fetch="ssh://git@github.com" />
 
-  <default-ariel revision="refs/heads/ariel-lineage-22.2"
+  <default-ariel revision="refs/heads/ariel-lineage-20.0"
          remote="ariel"
          sync-c="true"
          sync-j="4" />

@@ -40,6 +40,7 @@
   <project path="vendor/ariel/packages/apps/ArielParental" name="ArielOSProject/android_packages_apps_ArielParental" remote="ariel" revision="master" />
   <project path="vendor/ariel/packages/apps/AuroraStore" name="ArielOSProject/android_packages_apps_AuroraStore" remote="ariel" revision="master" />
   <project path="vendor/ariel/packages/apps/ArielProtector" name="ArielOSProject/android_packages_apps_ArielProtector" remote="ariel" revision="master" />
-  <project path="vendor/ariel/packages/apps/NewPipe" name="ArielOSProject/android_packages_apps_NewPipe" remote="ariel" revision="master" />
+  <project path="vendor/ariel/packages/apps/SkyTubeExtra" name="ArielOSProject/android_packages_apps_SkyTubeExtra" remote="ariel" revision="master" />
+  <project path="vendor/ariel/packages/apps/DuckDuckGo" name="ArielOSProject/android_packages_apps_DuckDuckGo" remote="ariel" revision="master" />
 
 </manifest>

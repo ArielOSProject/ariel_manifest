@@ -24,6 +24,8 @@
   <!-- Forked so that we can manipulate incomming SMS before broadcasting -->
   <remove-project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/telephony" name="ArielOSProject/android_frameworks_opt_telephony" groups="pdk" remote="ariel"/>
+  <remove-project path="packages/providers/BlockedNumberProvider" name="LineageOS/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" />
+  <project path="packages/providers/BlockedNumberProvider" name="ArielOSProject/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" remote="ariel"/>
 
   <!-- <remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SetupWizard" name="ArielOSProject/android_packages_apps_SetupWizard" remote="ariel"/> -->
